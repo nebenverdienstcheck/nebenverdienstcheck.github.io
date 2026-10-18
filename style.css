@@ -10,3 +10,22 @@ h1{font-size:32px;line-height:1.2;color:var(--d)}h2{margin-top:36px;color:var(--
 .cta{display:inline-block;background:var(--g);color:#fff;padding:14px 26px;border-radius:8px;text-decoration:none;font-weight:700;margin:12px 0}
 table{border-collapse:collapse;width:100%}td,th{border:1px solid #cfe5d8;padding:8px 10px;text-align:left;background:#fff}
 footer{text-align:center;font-size:14px;padding:24px;color:#555}footer a{color:#555;margin:0 8px}
+img.hero{width:100%;height:auto;border-radius:14px;display:block;margin:12px 0 22px;box-shadow:0 8px 24px rgba(18,55,42,.25)}
+.offer{border:2px solid var(--y);background:#fffdf3}
+.offer-card{background:linear-gradient(135deg,#12372a,#1f8a5b);color:#fff;border-radius:14px;padding:22px 22px 18px;margin:20px 0;box-shadow:0 8px 24px rgba(18,55,42,.25)}
+.offer-card .tag{display:inline-block;background:var(--y);color:var(--d);font-weight:700;font-size:13px;letter-spacing:.5px;border-radius:20px;padding:3px 12px;text-transform:uppercase}
+.offer-card h2{color:#fff;margin:10px 0 6px;font-size:24px}
+.offer-card p{margin:6px 0}.offer-card .big{white-space:nowrap;font-size:34px;font-weight:800;color:var(--y);line-height:1.1}
+.offer-card a.cta{background:var(--y);color:var(--d);margin:10px 0 4px}
+.offer-card small{opacity:.85;display:block;margin-top:8px;font-size:13px;line-height:1.4}
+.offer-card small a{color:#fff}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:18px 0}
+.step{background:#fff;border:1px solid #cfe5d8;border-radius:12px;padding:16px;text-align:left}
+.step svg{width:44px;height:44px;margin-bottom:6px}
+.step b{display:block;color:var(--d);margin-bottom:2px}
+.step span{font-size:15px;color:#444}
+.codebox{background:var(--d);color:#fff;border-radius:10px;padding:12px 18px;text-align:center;font-size:15px;margin:14px 0}
+.codebox code{display:inline-block;background:var(--y);color:var(--d);font-weight:800;font-size:22px;letter-spacing:1px;padding:4px 14px;border-radius:6px;margin:4px 0;user-select:all}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--d);padding:10px 14px;text-align:center;z-index:9;box-shadow:0 -4px 14px rgba(0,0,0,.2)}
+.bar a{display:inline-block;background:var(--y);color:var(--d);font-weight:800;padding:10px 22px;border-radius:8px;text-decoration:none}
+body{padding-bottom:66px}
